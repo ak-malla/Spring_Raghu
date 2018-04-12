@@ -40,18 +40,24 @@
             <version>2.1.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>spring-mvc-angularjs</finalName>
 
         <plugins>
             <plugin>
-              <artifactId>maven-compiler-plugin</artifactId>
-              <version>3.1</version>
-              <configuration>
-                <source>1.7</source>
-                <target>1.7</target>
-              </configuration>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -68,7 +74,7 @@
                 <version>2.2</version>
                 <configuration>
                     <port>8080</port>
-                    <path>/spring-mvc-angularjs</path>
+                    <path>/spring</path>
                 </configuration>
             </plugin>
         </plugins>

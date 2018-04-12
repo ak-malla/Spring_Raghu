@@ -1,0 +1,79 @@
+[
+    {
+        "Box": {
+            "label1": "Customer Invoice",
+            "icon": "ace-icon fa fa-print",
+            "label2": "Invoice:",
+            "invoiceid": "#121212",
+            "label3": "Date:",
+            "date": "04/04/2014"
+        }
+    },
+    {
+        "BoXes": {
+            "name1": "Company Info",
+			"icon0": "col-xs-11 label label-lg label-info arrowed-in arrowed-right",
+            "icon1": "ace-icon fa fa-caret-right blue",
+            "data1": "Street, City",
+            "data2": "Zip Code",
+            "data3": "State, Country",
+            "data4": "111-111-111",
+            "data5": "Payment Info"
+        }
+    },
+    {
+        "Info": {
+            "name2": "Customer Info",
+            "icon2": "ace-icon fa fa-caret-right green",
+            "data6": "Street, City",
+            "data7": "Zip Code",
+            "data8": "State, Country",
+            "data9": "Contact Info"
+        }
+    },
+    {
+        "table": {
+            "symbol": "#",
+            "heading1": "Product",
+            "heading2": "Description",
+            "heading3": "Discount",
+            "heading4": "Total"
+        }
+    },
+    {
+        "table1": {
+            "id": "1",
+            "Product": "Google.com",
+            "Description": "1 year domain registration",
+            "Discount": "---",
+            "Total": "$10"
+        }
+    },
+    {
+        "table2": {
+            "id": "2",
+            "Product": "Yahoo.com",
+            "Description": "5 year domain registration",
+            "Discount": "5%",
+            "Total": "$45"
+        }
+    },
+    {
+        "table3": {
+            "id": "3",
+            "Product": "Hosting",
+            "Description": "1 year basic hosting",
+            "Discount": "10%",
+            "Total": "$90"
+        }
+    },
+    {
+        "table4": {
+            "id": "4",
+            "Product": "Design",
+            "Description": "Theme customization",
+            "Discount": "50%",
+            "Total": "$250"
+        }
+    }
+]

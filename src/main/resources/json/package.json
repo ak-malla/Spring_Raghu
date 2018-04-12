@@ -1,0 +1,10 @@
+{
+  "name": "Json",
+  "description": "An design pattern...",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "4.4.4",
+    "file-system": "^2.2.2",
+    "npm": "^5.8.0"
+  }
+}

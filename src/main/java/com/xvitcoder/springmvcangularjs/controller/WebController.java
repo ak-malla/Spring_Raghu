@@ -15,6 +15,7 @@ public class WebController {
    public String notifypage() {
       return "notify";
    }
+
    @RequestMapping(value = "/header", method = RequestMethod.GET)
    public String headerpage() {
       return "header";
