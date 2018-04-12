@@ -189,11 +189,10 @@
                                     <!-- PAGE CONTENT BEGINS -->
                                     <div>
                                         <ul class="ace-thumbnails clearfix">
-                                            <li ng-repeat="gallery in gallerylist">
-                                                <a href="resources/assets/{{gallery.image}}"
-                                                   data-rel="colorbox">
+                                            <li ng-repeat="item in gallerylist">
+                                                <a ng-href="resources/assets/{{item.image}}" data-rel="colorbox">
                                                     <img width="150" height="150" alt="150x150"
-                                                         src="resources/assets/{{gallery.thumb}}"/>
+                                                         ng-src="resources/assets/{{item.thumb}}"/>
                                                     <div class="text">
                                                         <div class="inner">Sample Caption on Hover</div>
                                                     </div>
