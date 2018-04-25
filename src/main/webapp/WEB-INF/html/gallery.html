@@ -193,11 +193,38 @@
                                                 <a ng-href="resources/assets/{{item.image}}" data-rel="colorbox">
                                                     <img width="150" height="150" alt="150x150"
                                                          ng-src="resources/assets/{{item.thumb}}"/>
+
                                                     <div class="text">
-                                                        <div class="inner">Sample Caption on Hover</div>
+                                                        <div class="inner">AK</div>
                                                     </div>
                                                 </a>
+
+                                                <div class="tags">
+												        <span class="label-holder"
+                                                              ng-repeat="innertags in item.tags">
+													        <span class="label label-{{innertags.type}}">{{innertags.name}}</span>
+												        </span>
+                                                </div>
+
+                                                <div ng-show="item.tags.length > 0 " class="tools">
+                                                    <a href="#">
+                                                        <i class="ace-icon fa fa-link"></i>
+                                                    </a>
+
+                                                    <a href="#">
+                                                        <i class="ace-icon fa fa-paperclip"></i>
+                                                    </a>
+
+                                                    <a href="#">
+                                                        <i class="ace-icon fa fa-pencil"></i>
+                                                    </a>
+
+                                                    <a href="#">
+                                                        <i class="ace-icon fa fa-times red"></i>
+                                                    </a>
+                                                </div>
                                             </li>
+
                                         </ul>
                                     </div><!-- PAGE CONTENT ENDS -->
                                 </div><!-- /.col -->
@@ -211,9 +238,9 @@
 </div>
 
 <!--[if !IE]> -->
-<script src="resources/components/jquery/resources/dist/jquery.js"></script>
+<!--script src="resources/components/jquery/resources/dist/jquery.js"></script>
 
-<script src="resources/components/bootstrap/resources/dist/js/bootstrap.js"></script>
+<script src="resources/components/bootstrap/resources/dist/js/bootstrap.js"></script-->
 
 <!-- page specific plugin scripts -->
 <script src="resources/components/jquery-colorbox/jquery.colorbox.js"></script>

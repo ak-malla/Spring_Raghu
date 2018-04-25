@@ -5,7 +5,7 @@ myApp.controller("galleryCtrl", function ($scope, $http) {
     $scope.gallerylist;
     $scope.editMode = false;
 
-    $scope.fetchTrainsList = function () {
+    $scope.fetchGalleryList = function () {
         $http.get('gallery/items.json').then(function (response) {
 
             console.log(response.data);
@@ -13,6 +13,6 @@ myApp.controller("galleryCtrl", function ($scope, $http) {
             $scope.gallerylist = response.data;
         });
     };
-    $scope.fetchTrainsList();
+    $scope.fetchGalleryList();
 
 });

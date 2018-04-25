@@ -1,4 +1,4 @@
-package com.xvitcoder.springmvcangularjs.config;
+package com.mvc.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -14,7 +14,7 @@ import java.util.List;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages = "com.xvitcoder.springmvcangularjs")
+@ComponentScan(basePackages = "com.mvc")
 @Import({ThymeleafConfig.class})
 public class WebMvcConfig extends WebMvcConfigurerAdapter {
 
